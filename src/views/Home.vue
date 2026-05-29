@@ -76,7 +76,7 @@
   </section>
 
   <!-- Regions preview -->
-  <section class="bg-white px-6 py-16 lg:px-12">
+  <section class="bg-gray-100 px-6 py-16 lg:px-12">
     <div class="mx-auto max-w-7xl">
       <div class="mb-10 text-center">
         <p class="text-sm font-semibold uppercase tracking-[0.32em] text-emerald-600">Regions</p>
@@ -85,35 +85,35 @@
 
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl">
-          <div class="bg-[url('/src/assets/images/image1.png')] bg-cover bg-center p-8 h-64"></div>
+          <div class="bg-[url('/src/assets/images/image9.png')] bg-cover bg-center p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">Northern Rwanda</h3>
             <p class="mt-4 text-slate-300">Volcanoes, gorillas, and scenic highland trails.</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl">
-          <div class="bg-[url('/src/assets/images/image2.png')] bg-cover bg-center p-8 h-64"></div>
+          <div class="bg-[url('/src/assets/images/image7.png')] bg-cover bg-center p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">Eastern Rwanda</h3>
             <p class="mt-4 text-slate-300">Wildlife parks, lakes, and vibrant rural culture.</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl">
-          <div class="bg-[url('/src/assets/images/image4.png')] bg-cover bg-center p-8 h-64"></div>
+          <div class="bg-[url('/src/assets/images/image10.png')] bg-cover bg-center p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">Western Rwanda</h3>
             <p class="mt-4 text-slate-300">Lakeside retreats and Congo Nile Trail views.</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl">
-          <div class="bg-[url('/src/assets/images/image5.png')] bg-cover bg-center p-8 h-64"></div>
+          <div class="bg-[url('/src/assets/images/image8.png')] bg-cover bg-center p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">Southern Rwanda</h3>
             <p class="mt-4 text-slate-300">Tea estates, cultural villages, and peaceful hills.</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl sm:col-span-2 lg:col-span-1">
-          <div class="bg-[url('/src/assets/images/image7.png')] bg-cover bg-center p-8 h-64"></div>
+          <div class="bg-[url('/src/assets/images/image4.png')] bg-cover bg-center p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">Kigali</h3>
             <p class="mt-4 text-slate-300">Capital energy, markets, museums, and welcoming neighborhoods.</p>
