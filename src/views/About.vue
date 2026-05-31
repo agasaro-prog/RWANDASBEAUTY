@@ -9,7 +9,7 @@ const { t } = useI18n()
     <!-- Hero -->
     <div
       class="relative h-[80vh] bg-cover bg-center flex items-center"
-      style="background-image: url('/src/assets/images/image10.png');"
+      style="background-image: url('images/your-image.jpg');"
     >
       <div class="absolute inset-0 bg-slate-900/70"></div>
       <div class="relative z-10 mx-auto max-w-6xl px-6 text-center text-white">
