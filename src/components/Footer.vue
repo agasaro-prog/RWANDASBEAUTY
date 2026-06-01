@@ -72,6 +72,6 @@ import { RouterLink } from 'vue-router';
 
         <!-- place for copy right -->
          <div class="border-t border-green-600 mt-8 pt-4 text-sm text-green-300"></div>
-         <p class="text-center">©2025 Visit Rwanda.All rights reserved</p>
+         <p class="text-center">©2025 Visit Rwanda.All rights reserved made by Agasaro Umutoniwase Nice Promesse</p>
     </footer>
 </template>
