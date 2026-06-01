@@ -1,7 +1,9 @@
 <template>
   <!-- Hero section -->
-  <section class="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
-    style="background-image: url('/src/assets/images/image7.png');">
+  <section
+    class="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
+    :style="{ backgroundImage: `url(${image7})` }"
+  >
     <div class="bg-black/40 bg-opacity-50 absolute inset-0"></div>
     <div class="relative text-center px-4">
       <h1 class="text-5xl font-bold mb-4">WELCOME TO PHOTOS</h1>
@@ -26,6 +28,7 @@
       <img :src="image8" alt="Gallery photo 8" class="rounded-2xl shadow-md object-cover h-72 w-full" />
       <img :src="image9" alt="Gallery photo 9" class="rounded-2xl shadow-md object-cover h-72 w-full" />
       <img :src="image10" alt="Gallery photo 10" class="rounded-2xl shadow-md object-cover h-72 w-full" />
+      <img :src="image12" alt="Gallery photo 11" class="rounded-2xl shadow-md object-cover h-72 w-full" />
     </div>
   </section>
 </template>
@@ -41,4 +44,5 @@ import image7 from '../assets/images/image7.png'
 import image8 from '../assets/images/image8.png'
 import image9 from '../assets/images/image9.png'
 import image10 from '../assets/images/image10.png'
+import image12 from '../assets/images/image12.png'
 </script>
