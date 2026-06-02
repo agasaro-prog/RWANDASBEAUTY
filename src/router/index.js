@@ -11,6 +11,9 @@ import Images from "../views/images.vue";
 import Eastern from "../views/eastern.vue";
 import Kigali from "../views/kigali.vue";
 import Photos from "../views/Photos.vue";
+import Login from "../views/login.vue";
+import Registration from "../views/Registration.vue";
+import Dashboard from "../views/Dashboard/Dashboard.vue";
 
 
 
@@ -75,7 +78,23 @@ const routes = [
         path:"/videos",
         name:"videos",
         component:  Videos
+    },
+    {
+        path:"/login",
+        name:"login",
+        component:  Login
+    },
+     {
+        path:"/register",
+        name:"register",
+        component:  Registration
+    },
+     {
+        path:"/dashboard",
+        name:"dashboard",
+        component:  Dashboard
     }
+
 
 ];
 const router = createRouter(

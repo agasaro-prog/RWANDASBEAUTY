@@ -31,6 +31,8 @@ const { t } = useI18n()
    </li>
 
    <li><a href="/contact" class="hover:text-yellow-300">{{ t('nav_contact') }}</a></li>
+   <li><RouterLink to="/login" class="bg-yellow-400 text-green-900 px-4 py-1 rounded font-semibold hover:bg-yellow-300">Login</RouterLink>
+   </li>
 </ul>
  <Translator />
  </nav>
