@@ -2,7 +2,7 @@
 <template>
     <!-- Hero section -->
      <section class="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
-     style="background-image: url('/src/assets/images/image2.png');"
+     style="background-image: url('/image2.png');"
      > 
      <div class="bg-black/40 bg-opacity-50 absolute inset-0">
 

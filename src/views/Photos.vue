@@ -2,7 +2,7 @@
   <!-- Hero section -->
   <section
     class="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
-    :style="{ backgroundImage: `url(/src/assets/images/image11.png)` }"
+    :style="{ backgroundImage: 'url(/image11.png)' }"
   >
     <div class="bg-black/40 bg-opacity-50 absolute inset-0"></div>
     <div class="relative text-center px-4">

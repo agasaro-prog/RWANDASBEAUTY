@@ -8,7 +8,7 @@ const { t } = useI18n()
   <!-- Hero -->
   <section class="relative overflow-hidden bg-slate-950 text-white">
     <div
-      class="absolute inset-0 bg-[url('/src/assets/images/image1.png')] bg-cover bg-center bg-no-repeat opacity-90"
+      class="absolute inset-0 bg-[url('/image1.png')] bg-cover bg-center bg-no-repeat opacity-90"
     ></div>
     <div class="absolute inset-0 bg-slate-950/30"></div>
 
@@ -90,35 +90,35 @@ const { t } = useI18n()
 
       <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl">
-          <div class="bg-[url('/src/assets/images/image9.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
+          <div class="bg-[url('/image9.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">{{ t('home_northern') }}</h3>
             <p class="mt-4 text-slate-300">{{ t('home_northern_desc') }}</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl">
-          <div class="bg-[url('/src/assets/images/image7.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
+          <div class="bg-[url('/image7.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">{{ t('home_eastern') }}</h3>
             <p class="mt-4 text-slate-300">{{ t('home_eastern_desc') }}</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl">
-          <div class="bg-[url('/src/assets/images/image10.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
+          <div class="bg-[url('/image10.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">{{ t('home_western') }}</h3>
             <p class="mt-4 text-slate-300">{{ t('home_western_desc') }}</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl">
-          <div class="bg-[url('/src/assets/images/image8.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
+          <div class="bg-[url('/image8.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">{{ t('home_southern') }}</h3>
             <p class="mt-4 text-slate-300">{{ t('home_southern_desc') }}</p>
           </div>
         </div>
         <div class="group overflow-hidden rounded-[32px] border border-slate-200 bg-slate-950 text-white transition hover:-translate-y-1 hover:shadow-2xl sm:col-span-2 lg:col-span-1">
-          <div class="bg-[url('/src/assets/images/image4.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
+          <div class="bg-[url('/image4.png')] bg-cover bg-center bg-no-repeat p-8 h-64"></div>
           <div class="p-8">
             <h3 class="text-2xl font-bold">{{ t('home_kigali_city') }}</h3>
             <p class="mt-4 text-slate-300">{{ t('home_kigali_city_desc') }}</p>
