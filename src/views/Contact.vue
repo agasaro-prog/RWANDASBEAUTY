@@ -1,13 +1,12 @@
 
 <script setup>
 import { useI18n } from '../services/i18n.js'
-import Contact from './Contact.vue'
 
 const { t } = useI18n()
 </script>
 
 <template>
-  <section class="relative min-h-screen bg-cover bg-center text-white" style="background-image: url(/src/assets/images/photo6.png);">
+  <section class="relative min-h-screen bg-cover bg-center text-white" style="background-image: url('/photo6.png');">
     <div class="absolute inset-0 bg-black/60"></div>
 
     <div class="relative z-10 mx-auto flex min-h-screen w-full max-w-7xl flex-col items-center justify-center px-4 py-16 text-center sm:px-6 lg:px-8">
