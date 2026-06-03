@@ -8,7 +8,7 @@ const { t } = useI18n()
   <section class="relative overflow-hidden">
     <!-- Hero -->
     <div
-      class="relative h-[80vh] bg-cover bg-center flex items-center"
+      class="relative min-h-screen bg-cover bg-center bg-no-repeat flex items-center"
       style="background-image: url('/image11.png');"
     >
       <div class="absolute inset-0 bg-slate-900/70"></div>
