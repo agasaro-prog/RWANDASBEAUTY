@@ -1,15 +1,22 @@
 
+<script setup>
+import { useI18n } from '../services/i18n.js'
+
+const { t } = useI18n()
+</script>
+
 <template>
     <!-- Hero section -->
-     <section class="relative h-screen bg-cover bg-center flex items-center justify-center text-white"
+     <section class="relative min-h-screen bg-cover bg-center flex items-center justify-center text-white"
      style="background-image: url('/image5.png');"
      > 
      <div class="bg-black/40 bg-opacity-50 absolute inset-0">
 
      </div>
-     <div class="relative text-center px-4">
-        <h1 class="text-5x1 font-bold mb-4">WELCOME TO EASTERN PART OF RWANDA</h1>
-        <p class="text-lx mb-8 text-green-300">LAND OF A THOUSAND HILLS</p>
+     <div class="relative mx-auto max-w-4xl px-6 text-center">
+        <h1 class="text-4xl font-bold mb-4 sm:text-5xl">{{ t('dest_eastern_title') }}</h1>
+        <p class="text-lg mb-8 text-emerald-100 leading-8">{{ t('dest_eastern_desc') }}</p>
+        <p class="text-sm uppercase tracking-[0.35em] text-emerald-200">{{ t('common_land_of_thousand_hills') }}</p>
      </div>
      </section>
 </template>
